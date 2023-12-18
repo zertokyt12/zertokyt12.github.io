@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>zertok's website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body,
         html {
@@ -15,18 +14,16 @@
 
         .fullscreen-video {
             object-fit: cover;
-            width: 90%;
-            height: 90%;
+            width: 90vw; /* Utilisation de viewport units pour définir la largeur */
+            height: 90vh; /* Utilisation de viewport units pour définir la hauteur */
         }
     </style>
 </head>
-
 <body>
-    <div class="box"></div>
 
-<video class="fullscreen-video" autoplay loop muted playsinline>
-    <source src="https://raw.githubusercontent.com/zertokyt12/zertokyt12.github.io/readme.ms/test.mp4?raw=true" type="video/mp4">
-</video>
+    <video class="fullscreen-video" autoplay loop muted playsinline>
+        <source src="https://raw.githubusercontent.com/zertokyt12/zertokyt12.github.io/readme.ms/test.mp4?raw=true" type="video/mp4">
+    </video>
 
 
     <!-- Modifier le lien pour modifier l'image -->
