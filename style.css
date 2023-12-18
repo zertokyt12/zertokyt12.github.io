@@ -1,0 +1,42 @@
+p {
+
+    /*ceci est pour changer la couleur du texte (en anglais)*/
+    color: red;
+
+    /*ceci  est pour changer la taille du texte*/
+    font-size: 35px;
+
+    /*ceci est pour mettre une couleur en arriere plan du texte (je vous laisse tester)*/
+    font-display: red;
+
+}
+
+#img {
+    /* Ceci est pour changer la taille de l'image */
+    width: 225px;
+
+    /* ceci est pour positionner l'image */
+    position: absolute;
+    top: 355px;
+    left: 1000px;
+
+
+    transition: transform 0.25s ease-in-out;
+    /* ceci est pour que l'image grosisse fluidement */
+}
+
+#img:hover {
+    transform: scale(1.3);
+    /* ceci permet de chosire la taille en modifiant ce que il y'a dans les () */
+
+}
+
+
+
+
+body {
+/*changer la couleur de l'aririere plan*/
+    background-color: black;
+
+}
+
