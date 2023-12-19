@@ -16,9 +16,9 @@ p {
     width: 225px;
 
     /* ceci est pour positionner l'image */
-    position: absolute;
-    top: 355px;
-    left: 1000px;
+    positon:absolute;
+    top:10px;
+    left:100px;
 
 
     transition: transform 0.25s ease-in-out;
