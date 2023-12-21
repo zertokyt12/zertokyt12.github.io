@@ -16,7 +16,9 @@ p {
     width: 225px;
 
     /* ceci est pour positionner l'image */
-    position: center;
+    position: absolute:
+    top: 100px;
+    left: 150px;
 
 
 
@@ -25,7 +27,7 @@ p {
 }
 
 #img:hover {
-    transform: scale(9999);
+    transform: scale(1.2);
     /* ceci permet de chosire la taille en modifiant ce que il y'a dans les () */
 
 }
