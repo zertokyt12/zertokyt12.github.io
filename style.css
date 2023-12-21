@@ -16,9 +16,8 @@ p {
     width: 225px;
 
     /* ceci est pour positionner l'image */
-    position: absolute;
-    top: 100px;
-    left: 100px;
+    position: center;
+
 
 
     transition: transform 0.25s ease-in-out;
