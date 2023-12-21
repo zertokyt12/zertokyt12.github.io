@@ -17,8 +17,8 @@ p {
 
     /* ceci est pour positionner l'image */
     position: absolute;
-    top: 355px;
-    left: 1000px;
+    top: 100px;
+    left: 100px;
 
 
     transition: transform 0.25s ease-in-out;
@@ -31,12 +31,4 @@ p {
 
 }
 
-
-
-
-body {
-/*changer la couleur de l'aririere plan*/
-    background-color: black;
-
-}
 
