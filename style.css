@@ -26,7 +26,7 @@ p {
 }
 
 #img:hover {
-    transform: scale(1.2);
+    transform: scale(8);
     /* ceci permet de chosire la taille en modifiant ce que il y'a dans les () */
 
 }
